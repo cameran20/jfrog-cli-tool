@@ -5,13 +5,16 @@ This project waS created to allow users to use a command line interface to manag
 **Set Up**:
 
 * To use this cli begin by downloading the files in the repository
-* This project has a few required python packages which can be downloaded using the following command ```pip install -r requirements.txt```
+* This project has a few required python packages which can be downloaded using the following command 
+    
+    ```pip install -r requirements.txt```
 * For the application a .env file must be created with the following fields
     ```
     HOST=https://cameran.jfrog.io/artifactory/
     X-JFrog-Art-Api=
     ```
 * Finally login in to the account to populate the api key in the .env using this commmand
+    
     ```python jfrog.py login --username=admin --password=Password1!```
 
 **Usage**:
